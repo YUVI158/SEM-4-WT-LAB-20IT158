@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.boat1{
+    position: absolute;
+    z-index: 1;
+    height: 250px;
+    width: 300px;
+    top: 450px;
+    animation: float 10s linear forwards;
+}
+.wave{
+    height: 800px;
+    width: 1500px;
+}
+@keyframes float{
+    10%{
+        transform: rotateY(0deg);
+        left: 0px;
+        top: 450px;
+        opacity: 1;
+    }
+    20%{
+        transform: rotateY(0deg);
+        left: 250px;
+        top: 425px;
+        opacity: 1;
+        
+    }
+    30%{
+        transform: rotateY(0deg);
+        left: 500px;
+        top: 475px;
+        opacity: 1;
+
+    }
+    40%{
+        transform: rotateY(0deg);
+        left: 750px;
+        top: 425px;
+        opacity: 1;
+        
+    }
+    50%{
+        transform: rotateY(0deg);
+        /* transform: translate(1000px,0); */
+        left: 1000px;
+        top: 450px;
+        opacity: 1;
+    }
+    60%{
+        transform: rotateY(180deg);
+        /* transform: translate(1000px,0px); */
+        left:1000px;
+        top:450px;
+        opacity: 1;
+        
+    }
+    70%{
+        transform: rotateY(180deg);
+        /* transform: translate(750px,25px); */
+        left: 750px;
+        top: 425px;
+        opacity: 1; 
+
+    }
+    80%{
+        transform: rotateY(180deg);
+        left: 500px;
+        top: 475px;
+        /* transform: translate(500px,-25px); */
+        opacity: 1;
+        
+    }
+    90%{
+        transform: rotateY(180deg);
+        left: 250px;
+        top: 425px;
+        /* transform: translate(250px,25px); */
+        opacity: 1;
+
+    }
+    100%{
+        transform: rotateY(180deg);
+        left: 0px;
+        top: 450px;
+        /* transform: translate(0px,0px); */
+        opacity: 1;
+    }
+    
+}
+/* @keyframes float2 {
+    
+    0%{
+        transform: translate(1000px,0);
+        opacity: 1;
+        
+    }
+    25%{
+        transform: translate(750px,25px);
+        opacity: 1;
+        
+    }
+    50%{
+        transform: translate(500px,-25px);
+        opacity: 1;
+
+    }
+    75%{
+        transform: translate(250px,25px);
+        opacity: 1;
+
+    }
+    100%{
+        transform: translate(0px,0);
+        opacity: 1;
+    }
+} */ 
