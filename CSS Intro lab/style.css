@@ -1,0 +1,135 @@
+/* Types of CSS
+
+    Inline CSS
+    Internal CSS
+    External CSS */
+
+
+ /* Basic css syntax
+
+    selector {property:value;}
+    Ex:  
+        h1{color:red;} */
+        
+
+/* Types of css selectors
+    universal selector: *{}
+    element selector: h1{} div{}
+    class selector: .classname{}
+    id selector: #idname{}
+    group selector: h1,div{} */
+    
+
+/* Color:
+    h1{color:red;} */
+
+
+/* Background:
+    h1{background: blanchedalmond;} */
+
+
+/* border:
+    h1{border:1px solid red;}*/
+
+
+/* margin:
+    h1{margin:10px;} */
+
+
+/* padding:
+    h1{padding:10px;} */
+
+
+/* height:
+    h1{height:100px;} */
+
+
+/* width:
+    h1{width:100px;} */
+
+
+/* outline:
+    h1{outline: 5px dotted green;} */
+
+
+/* text-align:
+    h1{text-align:center} */
+
+
+/* text-decoration:
+    h1{text-decoration: overline;} */
+
+
+/* text-transform:
+    h1{text-transform: uppercase;} */
+
+
+/* text-spacing:
+    h1{letter-spacing: 3px;} */
+
+
+/* text-indent:
+    .txt{text-indent: 50px;} */
+
+
+/* letter-spacing:
+    h1{letter-spacing: 3px;} */
+
+
+/* text-shadow:
+    h1 {text-shadow: 2px 2px #ff0000;} */
+
+
+/* font-size:
+    h1 {font-size: 20px;} */
+
+
+/* font-family:
+    h1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} */
+
+
+/* font-style:
+    h1 {font-style:italic;} */
+
+/* list style type:
+    ul.a {list-style-type: circle;}
+    ul.a {list-style-type: square;}
+    ol.b {list-style-type: upper-roman;}
+    ol.b {list-style-type: lower-alpha;} */
+
+
+/* table-border:
+    .table1{border-collapse: separate;}
+      
+    .table1{border-collapse: collapse;} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
